@@ -1,0 +1,99 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  position: relative;
+  background-color: #000;
+  padding-right: 71px;
+  height: 10px;
+  z-index: 10;
+}
+header ul li {
+  display: inline-block;
+  text-align: right;
+  margin: 0 10px 0 10px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.menu {
+  color: #fff;
+  list-style: none;
+  font-size: 24px;
+  //background-color: red;
+  left: 70vw;
+}
+
+.header-icon {
+  position: relative;
+  top: 5px;
+  right: 8px;
+}
+
+.logo {
+  display: inline-block;
+  color: #fff;
+  background: #fff url("../images/logo.gif") no-repeat;
+  width: 107px;
+  height: 172px;
+  margin-left: 36px;
+  /* Hide text */
+  text-indent: 100%;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  background: #000 url(../images/mountain_bike_pass_slice.gif) no-repeat center;
+  width: 100%;
+  height: 100vh;
+}
+
+.splash {
+  position: relative;
+  color: white;
+  top: 30%;
+  text-align: center;
+}
+
+.splash h1 {
+  font-size: 58pt;
+  font-weight: bold;
+}
+
+.splash p {
+  font-size: 16pt;
+  font-weight: lighter;
+  position: relative;
+  bottom: 60px;
+}
+
+.splash input {
+  width: 600px;
+  border: 1px solid black;
+  height: 30px;
+  position: relative;
+  bottom: 65px;
+  font-size: 16px;
+}
+
+.search {
+  background: #fff url(../icons/search.svg)
+  no-repeat 99%;
+  padding-right: 30px;
+}
