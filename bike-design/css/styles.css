@@ -1,5 +1,6 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
+
   border: 5px solid black;
 }
 
@@ -12,8 +13,9 @@ header {
   background-color: black;
   width: 100%;
   height: 72px;
-  border: 5px solid red;
   z-index: 10;
+
+  border: 5px solid red;
 }
 
 .logo {
@@ -73,12 +75,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-}
-
 /* Splash and Overlay ------------------------------------*/
 
 .overlay {
@@ -124,8 +120,86 @@ a:hover {
 
 /* Cards Section -----------------------------------------*/
 
-.cards {
+.cards-section {
+  background-color: #64c365;
+  padding-bottom: 30px;
+
   border: 5px solid green;
+}
+
+.cards-section h1 {
+  margin-left: 36px;
+  font-size: 28pt;
+  font-weight: bold;
+  margin: 20px 0 17px 36px;
+}
+
+.card {
+  display: inline-block;
+  width: 330px;
+  height: 380px;
+  margin: 0 36px;
+}
+
+.card-text {
+  position: relative;
+  bottom: 20px;
+  height: 190px;
+  background-color: #fff;
+}
+
+.card-text a {
+  color: #000;
+}
+
+.first-card>a {
+  background: #000 url(../images/bike_gears.jpg) no-repeat center;
+  background-size: cover;
+  display: block;
+  width: 330px;
+  height: 192px;
+  /* Hide Text */
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.second-card>a {
+  background: #000 url(../images/map.jpg) no-repeat center;
+  background-size: cover;
+  display: block;
+  width: 330px;
+  height: 192px;
+  /* Hide Text */
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.third-card>a {
+  background: #000 url(../images/mountain_scenery.jpg) no-repeat center;
+  background-size: cover;
+  display: block;
+  width: 330px;
+  height: 192px;
+  /* Hide Text */
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card-text h2 {
+  background: #fff url(../icons/arrows.svg) no-repeat 99% bottom;
+  font-size: 25pt;
+  margin: 20px 0 20px 16px;
+  padding-top: 21px;
+  text-decoration: underline;
+}
+
+.card-text p {
+  font-size: 15px;
+  margin: 0 0 0 16px;
+  padding: 0 0;
 }
 
 /* Articles Section --------------------------------------*/
