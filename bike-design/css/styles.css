@@ -8,10 +8,12 @@ body {
 
 header {
   display: block;
+  position: relative;
   background-color: black;
   width: 100%;
   height: 72px;
   border: 5px solid red;
+  z-index: 10;
 }
 
 .logo {
@@ -80,7 +82,44 @@ a:hover {
 /* Splash and Overlay ------------------------------------*/
 
 .overlay {
+  width: auto;
+  height: 600px;
+
   border: 5px solid yellow;
+}
+
+.overlay {
+  position: relative;
+  background: #000 url(../images/mountain_bike_pass.jpg) no-repeat center;
+  background-size: cover;
+  width: auto;
+  height: 600px;
+  overflow: hidden;
+}
+
+.splash {
+  position: relative;
+  top: 30%;
+  text-align: center;
+  color: white;
+}
+.splash h1 {
+  font-size: 58pt;
+  margin-bottom: -18px;
+}
+.splash p {
+  font-size: 16pt;
+  font-weight: lighter;
+  bottom: 50px;
+}
+
+.search {
+  width: 600px;
+  border: 1px solid black;
+  height: 30px;
+  font-size: 16px;
+  background: #fff url(../icons/search.svg) no-repeat 99%;
+  padding-right: 30px;
 }
 
 /* Cards Section -----------------------------------------*/
@@ -99,4 +138,10 @@ a:hover {
 
 footer {
   border: 5px solid purple;
+}
+
+.footer-logo {
+  float: right;
+  margin-left: 0px;
+  margin-right: 36px;
 }
