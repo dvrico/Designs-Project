@@ -97,3 +97,12 @@ header ul li {
   no-repeat 99%;
   padding-right: 30px;
 }
+
+.cards {
+  position: static;
+  top: 10px;
+  float: none;
+  background-color: #64c365;
+  height: 100px;
+  width: 90%;
+}
