@@ -1,7 +1,13 @@
+
+html {
+  height: 100%;
+}
+
 body {
   font-family: Helvetica, Arial, sans-serif;
+  margin: 0 0 0 0;
 
-  border: 5px solid black;
+  /*border: 5px solid black;*/
 }
 
 
@@ -15,7 +21,7 @@ header {
   height: 72px;
   z-index: 10;
 
-  border: 5px solid red;
+  /* border: 5px solid red; */
 }
 
 .logo {
@@ -81,7 +87,7 @@ a {
   width: auto;
   height: 600px;
 
-  border: 5px solid yellow;
+  /*border: 5px solid yellow; */
 }
 
 .overlay {
@@ -121,17 +127,18 @@ a {
 /* Cards Section -----------------------------------------*/
 
 .cards-section {
+  position: relative;
   background-color: #64c365;
   padding-bottom: 30px;
 
-  border: 5px solid green;
+  /*border: 5px solid green;*/
 }
 
 .cards-section h1 {
-  margin-left: 36px;
   font-size: 28pt;
   font-weight: bold;
-  margin: 20px 0 17px 36px;
+  margin: 0px 0 17px 36px;
+  padding-top: 20px;
 }
 
 .card {
@@ -206,9 +213,10 @@ a {
 
 .articles {
   position: relative;
-  border: 5px solid blue;
   width: 99%;
   height: 600px;
+
+  /*border: 5px solid blue; */
 }
 
 .articles h1 {
@@ -260,7 +268,7 @@ a {
 }
 
 .first-board-separator {
-  margin-top: 30px;
+  margin-top: 25px;
   margin-bottom: -20px;
 }
 
@@ -299,10 +307,91 @@ a {
 /* Footer Section ----------------------------------------*/
 
 footer {
-  border: 5px solid purple;
+  position: relative;
+  height: 105px;
+  background-color: #000;
+  color: white;
+
+  /*border: 5px solid purple;*/
+}
+
+footer div {
+  display: inline-block;
+}
+
+footer a {
+  /* Hide Text */
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.phone-contact a {
+  background: #000 url(../icons/technology.svg) no-repeat center;
+  display: block;
+  width: 45px;
+  height: 45px;
+  float: left;
+  margin: 23px 10px 0 20px;
+}
+
+.email-contact a {
+  background: #000 url(../icons/web.svg) no-repeat center;
+  display: block;
+  width: 70px;
+  height: 60px;
+  float: left;
+  margin: 20px 15px 0 72px;
+}
+
+.contact-title {
+  font-size: 12pt;
+  font-weight: bold;
+  margin: 20px 0 0 2px;
+}
+
+.contact-text {
+  font-size: 10pt;
+  font-weight: lighter;
+  width: 190px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.contact-details {
+  font-size: 11pt;
+  font-weight: bold;
+  margin: -8px 0 0 15px;
+}
+
+.social-contact a {
+  display: block;
+  position: absolute;
+  width: 90px;
+  height: 90px;
+}
+
+.facebook {
+  background: #000 url(../icons/FBsocial.svg) no-repeat center;
+  bottom: 7%;
+  left: 62.7%;
+}
+
+.twitter {
+  background: #000 url(../icons/twitter.svg) no-repeat center;
+  bottom: 7%;
+  left: 71.5%;
+}
+
+.instagram {
+  background: #000 url(../icons/instagram.svg) no-repeat center;
+  bottom: 7%;
+  left: 80%;
 }
 
 .footer-logo {
+  position: relative;
+  bottom: 67px;
   float: right;
   margin-left: 0px;
   margin-right: 36px;
