@@ -20,8 +20,6 @@ header {
   width: 100%;
   height: 72px;
   z-index: 10;
-
-  /* border: 5px solid red; */
 }
 
 .logo {
@@ -129,23 +127,28 @@ a {
 .cards-section {
   position: relative;
   background-color: #64c365;
-  padding-bottom: 30px;
+  //padding-bottom: 30px;
 
   /*border: 5px solid green;*/
+}
+
+.flex-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .cards-section h1 {
   font-size: 28pt;
   font-weight: bold;
-  margin: 0px 0 17px 36px;
+  margin: 0 0 4% 5%;
   padding-top: 20px;
 }
 
 .card {
-  display: inline-block;
   width: 330px;
   height: 380px;
-  margin: 0 36px;
+  margin: 0 36px 30px 36px;
 }
 
 .card-text {
@@ -396,3 +399,209 @@ footer a {
   margin-left: 0px;
   margin-right: 36px;
 }
+
+/* Mobile Section---------------------------------------*/
+
+@media screen and (max-width: 400px) {
+
+/* Mobile Header Section--------------------------------*/
+
+  .menu {
+    float: right;
+    margin-top: 25px;
+    margin-right: 0px;
+    margin-left: -10px;
+    margin-bottom: 0;
+    padding-left: 0px;
+  }
+
+  header ul li {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 5px;
+  }
+
+  #account {
+    width: 135px;
+    height: 30px;
+    background: #000 url(../icons/people.svg) no-repeat center;
+    font-size: 0pt;
+    font-color: black;
+    padding: 25px 40px 25px 25px;
+  }
+
+  #stores {
+    width: 135px;
+    height: 30px;
+    background: #000 url(../icons/location.svg) no-repeat center;
+    font-size: 0pt;
+    font-color: black;
+    padding: 25px 25px 25px 25px;
+  }
+
+  #cart {
+    width: 135px;
+    height: 30px;
+    background: #000 url(../icons/cart.svg) no-repeat  center;
+    font-size: 0pt;
+    font-color: black;
+    padding: 25px 55px 25px 25px;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+/* Mobile Splash and Overlay Section---------------------*/
+
+  .splash {
+    position: relative;
+    top: 30%;
+    text-align: center;
+    color: white;
+  }
+  .splash h1 {
+    font-size: 50pt;
+    margin-bottom: -5px;
+    line-height: 65px;
+  }
+  .splash p {
+    font-size: 12pt;
+    font-weight: lighter;
+    bottom: 50px;
+  }
+
+  .search {
+    width: 90%;
+    border: 1px solid black;
+    height: 30px;
+    font-size: 16px;
+    background: #fff url(../icons/search.svg) no-repeat 99%;
+    padding-right: 30px;
+  }
+
+/* Mobile Cards Section--------------------------------*/
+
+  .cards-section h1 {
+    font-size: 16pt;
+    font-weight: bold;
+    margin: 0 0 4% 5%;
+    padding-top: 20px;
+  }
+
+/* Mobile Articles Section ----------------------------*/
+
+  .top-article {
+    position: absolute;
+    width: 80%;
+    height: 214px;
+    margin: 0 0 0 44px;
+  }
+
+  .bottom-article {
+    position: absolute;
+    display: none;
+    width: 552px;
+    height: 214px;
+    margin: 41px 0 0 44px;
+    top: 35%;
+  }
+
+  .image-board {
+    position: relative;
+    display: none;
+    float: left;
+    margin-right: 30px;
+  }
+
+/* Mobile Footer Section----------------------------------*/
+
+  footer {
+    position: relative;
+    height: 105px;
+    background-color: #000;
+    color: white;
+
+    /*border: 5px solid purple;*/
+  }
+
+  footer div {
+    display: inline-block;
+  }
+
+  footer a {
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .phone-contact a { /* changed */
+    display: none;
+  }
+
+  .email-contact a { /* changed */
+    display: none;
+  }
+
+  .contact-title { /* changed */
+    display: none;
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 20px 0 0 2px;
+  }
+
+  .contact-text { /* changed */
+    display: none;
+    font-size: 10pt;
+    font-weight: lighter;
+    width: 190px;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+
+  .contact-details { /* changed */
+    display: none;
+    font-size: 11pt;
+    font-weight: bold;
+    margin: -8px 0 0 15px;
+  }
+
+  .social-contact a {
+    display: block;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+  }
+
+  .facebook {
+    background: #000 url(../icons/FBsocial.svg) no-repeat center;
+    bottom: 7%;
+    left: 0%;
+  }
+
+  .twitter {
+    background: #000 url(../icons/twitter.svg) no-repeat center;
+    bottom: 7%;
+    left: 24%;
+  }
+
+  .instagram {
+    background: #000 url(../icons/instagram.svg) no-repeat center;
+    bottom: 7%;
+    left: 48%;
+  }
+
+  .footer-logo { /* changed */
+    position: relative;
+    bottom: 67px;
+    float: right;
+    margin-left: 0px;
+    margin-right: 0;
+  }
+
+
+} /* end of media query */
