@@ -1,0 +1,112 @@
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0 0 0 0;
+  color: white;
+  height: 100%;
+}
+
+/* clear default decorations */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  background-color: #000;
+  position: fixed;
+  z-index: 10;
+}
+
+.main {
+  background-color: #5f2c82;
+}
+
+
+@media only screen and (max-device-width: 320px) {
+
+/* Mobile Generals */
+
+.ghost-button {
+  text-align: center;
+  padding: 6px;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  outline: none;
+}
+
+
+/* Mobile Header Section ------------------------*/
+
+  header {
+    height: 50px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+  #rocket-ship-logo {
+    display: inline-block;
+    width: 31px;
+    height: 41px;
+    background: transparent url(../assets/icons/rocket_ship.svg) no-repeat center;
+    background-size: contain;
+    margin: 5px 0 0 8px;
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  #menu {
+    display: inline-block;
+    width: 26px;
+    height: 23px;
+    background: transparent url(../assets/icons/menu.svg) no-repeat center;
+    background-size: contain;
+    margin: 0 0 10px 5px;
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .purchase-button {
+    display: inline-block;
+    float: right;
+    margin: 8px 15px 0 0;
+  }
+
+/* Mobile Main Section --------------------------*/
+
+  .main {
+    height: 590px;
+    position: absolute;
+    background: linear-gradient(to bottom right, #5f2c82, #619d9e);
+  }
+
+  .title {
+    margin-top: 180px;
+    margin-bottom: 0;
+    padding: 0 48px 0 48px;
+    font-size: 22pt;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 12pt;
+    font-weight: lighter;
+    text-align: left;
+    margin-top: 30px;
+    padding: 0 34px 0 34px;
+  }
+
+
+
+}
