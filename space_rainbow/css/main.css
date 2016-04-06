@@ -105,8 +105,9 @@ header {
   }
 
   .title {
-    margin: 0 0 0 0;
-    padding: 180px 48px 0 48px;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 180px;
     font-size: 22pt;
     font-weight: bold;
     text-align: center;
@@ -116,8 +117,9 @@ header {
     font-size: 12pt;
     font-weight: lighter;
     text-align: left;
+    margin: 0 auto;
     margin-top: 30px;
-    padding: 0 34px 0 34px;
+    width: 80%;
   }
 
   #planet-right {
@@ -181,91 +183,130 @@ header {
 
 /* Mobile Card Sections -----------------------------*/
 
-.first-info-card {
-  position: relative;
-  height: 380px;
-  background: linear-gradient(to right, #46a65b, #a9e260);
-}
+  .first-info-card {
+    position: relative;
+    height: 380px;
+    background: linear-gradient(to right, #46a65b, #a9e260);
+  }
 
-.second-info-card {
-  position: relative;
-  height: 380px;
-  background: linear-gradient(to right, #fe4f33, #e02870);
-}
+  .second-info-card {
+    position: relative;
+    height: 380px;
+    background: linear-gradient(to right, #fe4f33, #e02870);
+  }
 
-.article-spread {
-  position: relative;
-  height: 380px;
-  background: linear-gradient(to right, #5f2c82, #619d9e);
-}
+  .article-spread {
+    position: relative;
+    height: 380px;
+    background: linear-gradient(to right, #5f2c82, #619d9e);
+  }
 
-h1 {
-  text-align: center;
-  font-size: 20pt;
-  margin-top: 0;
-  padding-top: 20px;
-  font-weight: bold;
-}
+  h1 {
+    text-align: center;
+    font-size: 20pt;
+    margin-top: 0;
+    padding-top: 20px;
+    font-weight: bold;
+  }
 
-.lighter-title {
-  font-style: normal;
-  font-weight: lighter;
-}
+  .lighter-title {
+    font-style: normal;
+    font-weight: lighter;
+  }
 
-.performance-icon {
-  display: block;
-  margin: 0 auto;
-  width: 50%;
-  background: transparent url(../assets/icons/analytics.svg) no-repeat center;
-  background-size: contain;
-  width: 54px;
-  height: 44px;
-  padding: 20px;
-  /* Hide Text */
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-}
+  .performance-icon {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    background: transparent url(../assets/icons/analytics.svg) no-repeat center;
+    background-size: contain;
+    width: 54px;
+    height: 44px;
+    padding: 20px;
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
 
-.connection-icon {
-  display: block;
-  margin: 0 auto;
-  width: 50%;
-  background: transparent url(../assets/icons/link.svg) no-repeat center;
-  background-size: contain;
-  width: 54px;
-  height: 44px;
-  padding: 15px;
-  /* Hide Text */
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-}
+  .connection-icon {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    background: transparent url(../assets/icons/link.svg) no-repeat center;
+    background-size: contain;
+    width: 54px;
+    height: 44px;
+    padding: 15px;
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
 
-.access-icon {
-  display: block;
-  margin: 0 auto;
-  width: 50%;
-  background: transparent url(../assets/icons/astronaut.svg) no-repeat center;
-  background-size: contain;
-  width: 54px;
-  height: 44px;
-  padding: 20px;
-  /* Hide Text */
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-}
+  .access-icon {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    background: transparent url(../assets/icons/astronaut.svg) no-repeat center;
+    background-size: contain;
+    width: 54px;
+    height: 44px;
+    padding: 20px;
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
 
-p {
-  margin: 0 auto;
-  margin-top: 30px;
-  width: 87%;
-  font-weight: lighter;
-}
+  p {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 87%;
+    font-weight: lighter;
+  }
 
+  /* Footer Section ----------------------------------------*/
 
+  footer {
+    position: relative;
+    height: 60px;
+    background: linear-gradient(to right, #fc9b0e, #fbef28);
+  }
 
+  footer h1 {
+    display: inline-block;
+    position: absolute;
+    font-size: 14pt;
+    bottom: 10%;
+    left: 5%;
+    padding-top: 20px;
+    font-weight: bold;
+  }
 
+  .footer-icon {
+    display: inline-block;
+    position: relative;
+    float: right;
+    width: 40px;
+    height: 40px;
+    top: 18%;
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .facebook {
+    background: transparent url(../assets/icons/fbsocial.svg) no-repeat center;
+    background-size: contain;
+    right: 8%;
+  }
+
+  .twitter {
+    background: transparent url(../assets/icons/twittersocial.svg) no-repeat center;
+    background-size: contain;
+    right: 5%;
+  }
 
 }
