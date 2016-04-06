@@ -28,7 +28,7 @@ header {
 }
 
 
-@media only screen and (max-device-width: 320px) {
+@media only screen and (min-device-width: 320px) {
 
 /* Mobile Generals */
 
@@ -79,7 +79,7 @@ header {
   .purchase-button {
     display: inline-block;
     float: right;
-    margin: 8px 15px 0 0;
+    margin: 8px 30px 0 0;
   }
 
 /* Mobile Main Section --------------------------*/
@@ -106,6 +106,67 @@ header {
     margin-top: 30px;
     padding: 0 34px 0 34px;
   }
+
+  #planet-right {
+    position: absolute;
+    background: transparent url(../assets/icons/planet.svg) no-repeat center;
+    background-size: contain;
+    width: 100px;
+    height: 65px;
+    left: 76%;
+    top: 9%;
+  }
+
+  #space-comet-top {
+    position: absolute;
+    background: transparent url(../assets/icons/comet.svg) no-repeat center;
+    background-size: contain;
+    width: 85px;
+    height: 90px;
+    left: 29%;
+    top: 14%;
+  }
+
+  #space-comet-left {
+    position: absolute;
+    background: transparent url(../assets/icons/comet.svg) no-repeat center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    left: 4%;
+    top: 63%;
+  }
+
+  #space-comet-right {
+    position: absolute;
+    background: transparent url(../assets/icons/comet.svg) no-repeat center;
+    background-size: contain;
+    width: 63px;
+    height: 65px;
+    left: 85%;
+    top: 70%;
+  }
+
+  #space-man {
+    position: absolute;
+    background: transparent url(../assets/icons/astronaut_flag.svg) no-repeat center;
+    background-size: contain;
+    width: 100px;
+    height: 95px;
+    left: 40%;
+    top: 65%;
+  }
+
+  #home-planet {
+    position: absolute;
+    background: transparent url(../assets/icons/home_planet.svg) no-repeat top;
+    background-size: cover;
+    width: 320px;
+    height: 175px;
+    top: 80%;
+  }
+
+
 
 
 
