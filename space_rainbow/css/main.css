@@ -289,6 +289,23 @@ header {
     float: right;
   }
 
+  .first-info-card p,
+  .second-info-card p,
+  .article-spread p {
+    display: block;
+    width: 500px;
+    margin-top: 0px;
+    margin-left: 4%;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+  .icon-container p {
+    font-size: 14pt;
+    margin-top: 30px;
+  }
+
+
   /* First Card Section -----------------------------------*/
 
   .first-info-card {
@@ -379,24 +396,32 @@ header {
   }
 
   .center {
-    margin-right: 12%;
+    margin-right: 10%;
   }
 
   /* Article Spread Section -----------------------------*/
 
   .article-spread {
     position: relative;
-    height: 380px;
+    height: 450px;
     background: linear-gradient(to right, #5f2c82, #619d9e);
+  }
+
+  .first-row {
+    top: 16%;
+    right: 11%;
+  }
+
+  .second-row {
+    top: 55%;
+    right: 10%;
   }
 
   .access-icon {
     display: block;
-    margin: 0 auto;
-    width: 50%;
     background: transparent url(../assets/icons/astronaut.svg) no-repeat center;
     background-size: contain;
-    width: 54px;
+    width: 65%;
     height: 44px;
     padding: 20px;
     /* Hide Text */
@@ -405,20 +430,87 @@ header {
     overflow: hidden;
   }
 
-  .first-info-card p,
-  .second-info-card p,
-  .article-spread p {
-    display: inline-block;
-    width: 500px;
-    margin-top: 0px;
-    margin-left: 4%;
-    font-weight: lighter;
-    font-size: 22px;
+  .second-access-icon {
+    display: block;
+    background: transparent url(../assets/icons/two_way_access.svg) no-repeat center right;
+    background-size: contain;
+    width: 65%;
+    height: 44px;
+    padding: 20px;
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
   }
 
-  .icon-container p {
-    font-size: 14pt;
-    margin-top: 30px;
+  .third-access-icon {
+    display: block;
+    background: transparent url(../assets/icons/cloudDL.svg) no-repeat center;
+    background-size: contain;
+    width: 65%;
+    height: 44px;
+    padding: 20px;
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .fourth-access-icon {
+    display: block;
+    background: transparent url(../assets/icons/handicap.svg) no-repeat center;
+    background-size: contain;
+    width: 65%;
+    height: 44px;
+    padding: 20px;
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  /* Footer Section ----------------------------------------*/
+
+  footer {
+    position: relative;
+    height: 120px;
+    background: linear-gradient(to right, #fc9b0e, #fbef28);
+  }
+
+  footer h1 {
+    display: inline-block;
+    position: absolute;
+    font-size: 35pt;
+    top: 20%;
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 5px;
+  }
+
+  .footer-icon {
+    display: inline-block;
+    position: relative;
+    float: right;
+    width: 80px;
+    height: 80px;
+    top: 18%;
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .facebook {
+    background: transparent url(../assets/icons/fbsocial.svg) no-repeat center;
+    background-size: contain;
+    right: 8%;
+  }
+
+  .twitter {
+    background: transparent url(../assets/icons/twittersocial.svg) no-repeat center;
+    background-size: contain;
+    right: 5%;
   }
 
 }
@@ -654,7 +746,7 @@ header {
     font-weight: lighter;
   }
 
-  /* Footer Section ----------------------------------------*/
+  /* Mobile Footer Section ----------------------------------------*/
 
   footer {
     position: relative;
