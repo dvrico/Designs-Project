@@ -133,7 +133,7 @@ header {
     text-align: center;
     margin: 0 auto;
     margin-top: 30px;
-    width: 50%;
+    width: 60%;
   }
 
  #planet-left {
@@ -257,6 +257,168 @@ header {
   #space-comet-left,
   #space-comet-right {
     display: none;
+  }
+
+  /* Card Sections -----------------------------*/
+
+  h1 {
+    text-align: left;
+    font-size: 30pt;
+    margin-top: 0;
+    margin-left: 4%;
+    padding-top: 62px;
+    font-weight: bold;
+  }
+
+  .lighter-title {
+    font-style: normal;
+    font-weight: lighter;
+  }
+
+  .icons {
+    position: absolute;
+    margin: 0 0 0 0;
+    width: 100%;
+  }
+
+  .icon-container {
+    display: inline-block;
+    width: 131px;
+    height: 115px;
+    margin-right: 6%;
+    float: right;
+  }
+
+  /* First Card Section -----------------------------------*/
+
+  .first-info-card {
+    position: relative;
+    height: 380px;
+    background: linear-gradient(to right, #46a65b, #a9e260);
+  }
+
+  .performance-icon {
+    display: inline-block;
+    background: transparent url(../assets/icons/analytics.svg) no-repeat center;
+    background-size: contain;
+    width: 65%;
+    height: 44px;
+    padding: 20px;
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .second-performance-icon {
+    display: inline-block;
+    background: transparent url(../assets/icons/comet.svg) no-repeat center right;
+    background-size: contain;
+    width: 65%;
+    height: 44px;
+    padding: 20px;
+
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .center-center {
+    margin-right: 8%;
+  }
+
+  .third-performance-icon {
+    display: inline-block;
+    background: transparent url(../assets/icons/recycle_analytics.svg) no-repeat center right;
+    background-size: contain;
+    width: 55%;
+    height: 44px;
+    padding: 20px;
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  /* Second Card Section-------------------------------------*/
+
+  .second-info-card {
+    position: relative;
+    height: 380px;
+    background: linear-gradient(to right, #fe4f33, #e02870);
+  }
+
+  .connection-icon {
+    display: block;
+    margin: 0 auto;
+    background: transparent url(../assets/icons/link.svg) no-repeat center right;
+    background-size: contain;
+    width: 60%;
+    height: 44px;
+    padding: 15px;
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .second-connection-icon {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    background: transparent url(../assets/icons/planet.svg) no-repeat center;
+    background-size: contain;
+    width: 54px;
+    height: 44px;
+    padding: 15px;
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .center {
+    margin-right: 12%;
+  }
+
+  /* Article Spread Section -----------------------------*/
+
+  .article-spread {
+    position: relative;
+    height: 380px;
+    background: linear-gradient(to right, #5f2c82, #619d9e);
+  }
+
+  .access-icon {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    background: transparent url(../assets/icons/astronaut.svg) no-repeat center;
+    background-size: contain;
+    width: 54px;
+    height: 44px;
+    padding: 20px;
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .first-info-card p,
+  .second-info-card p,
+  .article-spread p {
+    display: inline-block;
+    width: 500px;
+    margin-top: 0px;
+    margin-left: 4%;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+  .icon-container p {
+    font-size: 14pt;
+    margin-top: 30px;
   }
 
 }
