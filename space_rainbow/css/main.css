@@ -6,9 +6,11 @@ body {
   height: 100%;
 }
 
+/* Not needed?
 .wrapper {
   position: relative;
 }
+*/
 
 /* clear default decorations------------------- */
 a {
@@ -40,9 +42,181 @@ header {
   background-color: #46a55b;
 }
 
+/* -----------------DESKTOP---------------------------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1440px) {
+
+  .ghost-button {
+    text-align: center;
+    padding: 8px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .ghost-button:hover,
+  .ghost-button:active {
+    background-color: #fff;
+    color: #619d9e;
+  }
+
+  /* Header Section ------------------------*/
+
+  header {
+    height: 75px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+  #rocket-ship-logo {
+    display: inline-block;
+    width: 50px;
+    height: 65px;
+    background: transparent url(../assets/icons/rocket_ship.svg) no-repeat center;
+    background-size: contain;
+    margin: 5px 0 0 8px;
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .nav {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    bottom: 30%;
+    padding-left: 34px;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+  .nav li a {
+    font-weight: lighter;
+    font-size: 16pt;
+    margin-right: 34px;
+  }
+
+  .purchase-button {
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin: 1.5% 3% 0 0;
+  }
+
+/* Main Section --------------------------*/
+
+  .main {
+    height: 700px;
+    position: relative;
+    background: linear-gradient(to bottom right, #5f2c82, #619d9e);
+  }
+
+  .title {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 180px;
+    font-size: 54pt;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 19pt;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 50%;
+  }
+
+ #planet-left {
+    position: absolute;
+    background: transparent url(../assets/icons/planet.svg) no-repeat center right;
+    background-size: contain;
+    width: 180px;
+    height: 135px;
+    left: 5%;
+    top: 26%;
+ }
+
+  #comet-pack-left {
+    float: left;
+    position: absolute;
+    bottom: 0%;
+    width: 273px;
+    height: 180px;
+  }
+
+  #small-comet {
+    position: relative;
+    background: transparent url(../assets/icons/comet.svg) no-repeat center;
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    left: 42%;
+    top: 0%;
+  }
+
+  #medium-comet {
+    position: relative;
+    background: transparent url(../assets/icons/comet.svg) no-repeat center;
+    background-size: contain;
+    width: 56px;
+    height: 60px;
+    left: 20%;
+    top: 35%;
+  }
+
+  #large-comet {
+    position: relative;
+    background: transparent url(../assets/icons/comet.svg) no-repeat center;
+    background-size: contain;
+    width: 81px;
+    height: 87px;
+    left: 70%;
+    top: -30%;
+  }
+
+  #planet-right,
+  #space-comet-top,
+  #space-comet-left,
+  #space-comet-right {
+    display: none;
+  }
+
+  #space-man {
+    position: absolute;
+    background: transparent url(../assets/icons/astronaut_flag.svg) no-repeat center;
+    background-size: contain;
+    width: 100px;
+    height: 95px;
+    left: 40%;
+    top: 67%;
+  }
+
+  #home-planet {
+    position: absolute;
+    background: transparent url(../assets/icons/home_planet.svg) no-repeat top;
+    background-size: cover;
+    width: 320px;
+    height: 175px;
+    top: 80%;
+    display: none;
+  }
+
+}
 
 
-@media only screen and (min-device-width: 320px) {
+/* --------------MOBILE------------------------------ */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
 
 /* Mobile Buttons */
 
@@ -94,6 +268,10 @@ header {
     display: inline-block;
     float: right;
     margin: 8px 15px 0 0;
+  }
+
+  .nav {
+    display: none;
   }
 
 /* Mobile Main Section --------------------------*/
@@ -169,7 +347,7 @@ header {
     width: 100px;
     height: 95px;
     left: 40%;
-    top: 66%;
+    top: 67%;
   }
 
   #home-planet {
