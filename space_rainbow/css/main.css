@@ -140,8 +140,8 @@ header {
     position: absolute;
     background: transparent url(../assets/icons/planet.svg) no-repeat center right;
     background-size: contain;
-    width: 180px;
-    height: 135px;
+    width: 200px;
+    height: 155px;
     left: 5%;
     top: 26%;
  }
@@ -184,21 +184,62 @@ header {
     top: -30%;
   }
 
-  #planet-right,
-  #space-comet-top,
-  #space-comet-left,
-  #space-comet-right {
-    display: none;
+  #floating-astronaut {
+    position: absolute;
+    background: transparent url(../assets/icons/astronaut.svg) no-repeat center right;
+    background-size: contain;
+    width: 80px;
+    height: 81px;
+    left: 88%;
+    top: 15%;
+  }
+
+  #comet-pack-right {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    width: 267px;
+    height: 337px;
+  }
+
+  #first-comet {
+    position: relative;
+    background: transparent url(../assets/icons/comet.svg) no-repeat center;
+    background-size: contain;
+    width: 57px;
+    height: 61px;
+    left: 0%;
+    top: 0%;
+  }
+
+  #second-comet {
+    position: relative;
+    background: transparent url(../assets/icons/comet.svg) no-repeat center;
+    background-size: contain;
+    width: 84px;
+    height: 87px;
+    left: 51%;
+    top: -10%;
+  }
+
+  #third-comet {
+    position: relative;
+    background: transparent url(../assets/icons/comet.svg) no-repeat center;
+    background-size: contain;
+    width: 125px;
+    height: 130px;
+    left: 11%;
+    top: 10%;
   }
 
   #space-man {
     position: absolute;
     background: transparent url(../assets/icons/astronaut_flag.svg) no-repeat center;
     background-size: contain;
-    width: 100px;
-    height: 95px;
-    left: 40%;
-    top: 67%;
+    width: 112px;
+    height: 112px;
+    left: 45%;
+    top: 60.5%;
   }
 
   #home-planet {
@@ -207,7 +248,14 @@ header {
     background-size: cover;
     width: 320px;
     height: 175px;
-    top: 80%;
+    top: 75%;
+    left: 35%;
+  }
+
+  #planet-right,
+  #space-comet-top,
+  #space-comet-left,
+  #space-comet-right {
     display: none;
   }
 
