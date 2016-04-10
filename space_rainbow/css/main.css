@@ -6,12 +6,6 @@ body {
   height: 100%;
 }
 
-/* Not needed?
-.wrapper {
-  position: relative;
-}
-*/
-
 /* clear default decorations------------------- */
 a {
   text-decoration: none;
@@ -43,7 +37,7 @@ header {
 }
 
 /* -----------------DESKTOP---------------------------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1440px) {
+@media only screen and (min-device-width: 426px) and (max-device-width: 2560px) {
 
   .ghost-button {
     text-align: center;
@@ -515,6 +509,123 @@ header {
 
 }
 
+/* --------------TABLET------------------------------ */
+@media only screen and (min-device-width: 426px) and (max-device-width: 1150px) {
+
+  /* Tablet Main Section -------------------------------*/
+
+  #planet-left {
+    display: none;
+  }
+
+  #first-comet {
+    display: none;
+  }
+
+  #second-comet {
+    position: relative;
+    background: transparent url(../assets/icons/comet.svg) no-repeat center;
+    background-size: contain;
+    width: 84px;
+    height: 87px;
+    left: 51%;
+    top: -10%;
+  }
+
+/* Tablet Card Sections -----------------------------*/
+
+  h1 {
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 0;
+    margin-left: 4%;
+    padding-top: 30px;
+    font-weight: bold;
+  }
+
+  .icons {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 0;
+    width: 100%;
+  }
+
+  .icon-container {
+    display: inline-block;
+    width: 131px;
+    height: 115px;
+    margin-right: 6%;
+    margin: 0 auto;
+
+    float: none;
+  }
+
+  .performance-icon,
+  .second-performance-icon,
+  .third-performance-icon {
+    width: 55%;
+    height: 24px;
+  }
+
+  .connection-icon,
+  .second-connection-icon {
+    width: 55%;
+    height: 24px;
+  }
+
+  .first-info-card p,
+  .second-info-card p,
+  .article-spread p {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-weight: lighter;
+    font-size: 18px;
+  }
+
+  .icon-container p {
+    font-size: 14pt;
+    margin-top: 20px;
+  }
+
+/* Tablet Article Spread Section ---------------------------*/
+
+  .first-row {
+    top: 0;
+    right: 0;
+  }
+
+  .second-row {
+    top: 5%;
+    right: 0;
+  }
+
+  .tablet-margin-right {
+    margin-right: 5%;
+    margin-top: -3%;
+    margin-bottom: 3%;
+  }
+
+  .tablet-margin-left {
+    margin-left: 5%;
+    margin-top: -3%;
+  }
+
+  .tablet-hide {
+    display: none;
+  }
+
+  .access-icon,
+  .second-access-icon,
+  .third-access-icon,
+  .fourth-access-icon {
+    width: 55%;
+    height: 24px;
+  }
+
+}
 
 /* --------------MOBILE------------------------------ */
 
