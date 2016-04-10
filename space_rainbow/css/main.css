@@ -523,6 +523,10 @@ header {
   }
 
   #second-comet {
+    display: none;
+  }
+
+  #second-comet {
     position: relative;
     background: transparent url(../assets/icons/comet.svg) no-repeat center;
     background-size: contain;
@@ -549,6 +553,7 @@ header {
     justify-content: center;
     margin: 0 0;
     width: 100%;
+    overflow: hidden;
   }
 
   .icon-container {
