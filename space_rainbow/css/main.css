@@ -273,12 +273,13 @@ header {
     position: absolute;
     margin: 0 0 0 0;
     width: 100%;
+    overflow: hidden;
   }
 
   .icon-container {
     display: inline-block;
     width: 131px;
-    height: 115px;
+    height: 100%;
     margin-right: 6%;
     float: right;
   }
@@ -559,7 +560,7 @@ header {
   .icon-container {
     display: inline-block;
     width: 131px;
-    height: 115px;
+    height: 100%;
     margin-right: 6%;
     margin: 0 auto;
 
@@ -609,13 +610,11 @@ header {
 
   .tablet-margin-right {
     margin-right: 5%;
-    margin-top: -3%;
     margin-bottom: 3%;
   }
 
   .tablet-margin-left {
     margin-left: 5%;
-    margin-top: -3%;
   }
 
   .tablet-hide {
@@ -628,6 +627,10 @@ header {
   .fourth-access-icon {
     width: 55%;
     height: 24px;
+  }
+
+  .extra-text {
+    display: none;
   }
 
 }
@@ -693,11 +696,11 @@ header {
 
   #menu {
     display: inline-block;
-    width: 26px;
-    height: 23px;
+    width: 28px;
+    height: 25px;
     background: transparent url(../assets/icons/menu.svg) no-repeat center;
     background-size: contain;
-    margin: 0 0 10px 5px;
+    margin: 15px 0 10px 15px;
     /* Hide Text */
     text-indent: 100%;
     white-space: nowrap;
@@ -887,7 +890,7 @@ header {
 
   p {
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 25px;
     width: 87%;
     font-weight: lighter;
   }
