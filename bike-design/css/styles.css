@@ -307,6 +307,10 @@ a {
   background-size: cover;
 }
 
+.extra-word {
+  font-style: normal;
+}
+
 /* Footer Section ----------------------------------------*/
 
 footer {
@@ -777,7 +781,7 @@ footer a {
 
   .first-card>a {
     background: #000 url(../images/bike_gears.jpg) no-repeat center;
-    background-size: contain;
+    background-size: cover;
     display: block;
     width: 100%;
     height: 192px;
@@ -815,15 +819,19 @@ footer a {
     background: #fff url(../icons/arrows.svg) no-repeat 94% bottom;
     background-size: auto;
     font-size: 20pt;
-    margin: 20px 0 20px 16px;
+    margin: 20px 0 10px 10px;
     padding-top: 21px;
     text-decoration: underline;
   }
 
   .card-text p {
     font-size: 17px;
-    margin: 0 0 0 16px;
+    margin: 0 0 0 10px;
     padding: 0 0;
+  }
+
+  .extra-word {
+    display: none;
   }
 
 /* XS Article Section -----------------------------*/
