@@ -632,6 +632,28 @@ header {
 
 }
 
+/* Fix Buy Now Button */
+@media only screen and (max-device-width: 710px) {
+
+  #menu {
+    display: inline-block;
+    width: 26px;
+    height: 23px;
+    background: transparent url(../assets/icons/menu.svg) no-repeat center;
+    background-size: contain;
+    margin: 0 0 10px 5px;
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .nav {
+    display: none;
+  }
+}
+
+
 /* --------------MOBILE------------------------------ */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
@@ -810,6 +832,14 @@ header {
     font-weight: lighter;
   }
 
+  .icon-container {
+    display: none;
+  }
+
+  .mobile-icon-container {
+    display: block;
+  }
+
   .performance-icon {
     display: block;
     margin: 0 auto;
@@ -857,10 +887,15 @@ header {
 
   p {
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 50px;
     width: 87%;
     font-weight: lighter;
   }
+
+  .extra-text {
+    display: none;
+  }
+
 
   /* Mobile Footer Section ----------------------------------------*/
 
