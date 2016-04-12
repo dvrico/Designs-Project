@@ -400,9 +400,108 @@ footer a {
   margin-right: 36px;
 }
 
+/* Tablet Section */
+
+@media only screen and (max-device-width: 1130px) {
+
+/* Tablet Articles Section */
+
+  .image-board li {
+    width: 200px;
+    height: 200px;
+  }
+
+/* Tablet Footer Section */
+
+  .social-contact a {
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+  }
+
+  .facebook {
+    background: #000 url(../icons/FBsocial.svg) no-repeat center;
+    background-size: cover;
+    bottom: 20%;
+    left: 62.7%;
+  }
+
+  .twitter {
+    background: #000 url(../icons/twitter.svg) no-repeat center;
+    background-size: cover;
+    bottom: 20%;
+    left: 71.5%;
+  }
+
+  .instagram {
+    background: #000 url(../icons/instagram.svg) no-repeat center;
+    background-size: cover;
+    bottom: 20%;
+    left: 80%;
+  }
+
+}
+
+@media only screen and (max-device-width: 1050px) {
+
+  /* S Articles Section */
+
+  .image-board li {
+    display: block;
+    list-style: none;
+    width: 125px;
+    height: 125px;
+    margin: 0 -3px;
+  }
+
+  /* S Footer Section */
+  .email-contact {
+    display: none;
+  }
+
+  .social-contact a {
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+  }
+
+  .facebook {
+    background: #000 url(../icons/FBsocial.svg) no-repeat center;
+    background-size: cover;
+    bottom: 25%;
+    left: 45%;
+  }
+
+  .twitter {
+    background: #000 url(../icons/twitter.svg) no-repeat center;
+    background-size: cover;
+    bottom: 25%;
+    left: 55.5%;
+  }
+
+  .instagram {
+    background: #000 url(../icons/instagram.svg) no-repeat center;
+    background-size: cover;
+    bottom: 25%;
+    left: 66%;
+  }
+
+}
+
+@media only screen and (max-device-width: 750px) {
+
+  .image-board {
+    display: none;
+  }
+
+}
+
+
 /* Mobile Section---------------------------------------*/
 
-@media only screen and (max-device-width : 375px) {
+@media only screen and (max-device-width: 635px) {
 
 /* Mobile Header Section--------------------------------*/
 
@@ -494,20 +593,28 @@ footer a {
 
 /* Mobile Articles Section ----------------------------*/
 
+.articles {
+  position: relative;
+  width: 99%;
+  height: 700px;
+
+  /*border: 5px solid blue; */
+}
+
   .top-article {
-    position: absolute;
+    position: relative;
     width: 80%;
     height: 214px;
     margin: 0 0 0 44px;
   }
 
   .bottom-article {
-    position: absolute;
-    display: none;
-    width: 552px;
+    position: relative;
+    display: block;
+    width: 80%;
     height: 214px;
-    margin: 41px 0 0 44px;
-    top: 35%;
+    margin: 0 0 0 44px;
+    top: 12%;
   }
 
   .image-board {
@@ -573,26 +680,29 @@ footer a {
   .social-contact a {
     display: block;
     position: absolute;
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
   }
 
   .facebook {
     background: #000 url(../icons/FBsocial.svg) no-repeat center;
-    bottom: 7%;
-    left: 0%;
+    background-size: cover;
+    bottom: 13%;
+    left: 10px;
   }
 
   .twitter {
     background: #000 url(../icons/twitter.svg) no-repeat center;
-    bottom: 7%;
-    left: 24%;
+    background-size: cover;
+    bottom: 13%;
+    left: 100px;
   }
 
   .instagram {
     background: #000 url(../icons/instagram.svg) no-repeat center;
-    bottom: 7%;
-    left: 48%;
+    background-size: cover;
+    bottom: 13%;
+    left: 190px;
   }
 
   .footer-logo { /* changed */
@@ -605,3 +715,149 @@ footer a {
 
 
 } /* end of media query */
+
+@media only screen and (max-device-width: 540px) {
+
+  /* Articles Section -------------------------------*/
+
+  .extra-text {
+    display: none;
+  }
+
+  .bottom-article {
+    position: relative;
+    display: block;
+    width: 80%;
+    height: 214px;
+    margin: 0 0 0 44px;
+    top: 20%;
+  }
+
+}
+
+/* XS Screens -----------------------------------------*/
+@media only screen and (max-device-width: 370px) {
+
+/* XS Header Section */
+
+  #account {
+    width: 135px;
+    height: 30px;
+    background: #000 url(../icons/people.svg) no-repeat center;
+    font-size: 0pt;
+    font-color: black;
+    padding: 25px 30px 25px 15px;
+  }
+
+  #stores {
+    width: 135px;
+    height: 30px;
+    background: #000 url(../icons/location.svg) no-repeat center;
+    font-size: 0pt;
+    font-color: black;
+    padding: 25px 5px 25px 25px;
+  }
+
+  #cart {
+    width: 135px;
+    height: 30px;
+    background: #000 url(../icons/cart.svg) no-repeat  center;
+    font-size: 0pt;
+    font-color: black;
+    padding: 25px 55px 25px 0px;
+  }
+
+/* XS Card Section -------------------------------*/
+
+  .card {
+    width: 290px;
+    height: 380px;
+    margin: 0 36px 30px 36px;
+  }
+
+  .first-card>a {
+    background: #000 url(../images/bike_gears.jpg) no-repeat center;
+    background-size: contain;
+    display: block;
+    width: 290px;
+    height: 192px;
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .second-card>a {
+    background: #000 url(../images/map.jpg) no-repeat center;
+    background-size: cover;
+    display: block;
+    width: 290px;
+    height: 192px;
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .third-card>a {
+    background: #000 url(../images/mountain_scenery.jpg) no-repeat center;
+    background-size: cover;
+    display: block;
+    width: 290px;
+    height: 192px;
+    /* Hide Text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .card-text h2 {
+    background: #fff url(../icons/arrows.svg) no-repeat 94% bottom;
+    background-size: auto;
+    font-size: 20pt;
+    margin: 20px 0 20px 16px;
+    padding-top: 21px;
+    text-decoration: underline;
+  }
+
+  .card-text p {
+    font-size: 17px;
+    margin: 0 0 0 16px;
+    padding: 0 0;
+  }
+
+/* XS Article Section -----------------------------*/
+
+  .bottom-article {
+    display: none;
+  }
+
+/* XS Footer Section -----------------------------*/
+  .social-contact a {
+    display: block;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+  }
+
+  .facebook {
+    background: #000 url(../icons/FBsocial.svg) no-repeat center;
+    background-size: cover;
+    bottom: 16%;
+    left: 0%;
+  }
+
+  .twitter {
+    background: #000 url(../icons/twitter.svg) no-repeat center;
+    background-size: cover;
+    bottom: 16%;
+    left: 24%;
+  }
+
+  .instagram {
+    background: #000 url(../icons/instagram.svg) no-repeat center;
+    background-size: cover;
+    bottom: 16%;
+    left: 48%;
+  }
+}
