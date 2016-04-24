@@ -95,11 +95,92 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* NAVIGATION BAR ---------------------------------*/
 
+.navbar {
+  display: inline-block;
+  width: 19%;
+  height: 100%;
+  margin: 0.5% 0 0 1%;
+  padding: 0;
 
+  //border: 1px solid red;
+}
 
+.navbar h1 {
+  font-size: 27px;
+  background: transparent url(../assets/icons/camera.svg) no-repeat right center;
+  background-size: contain;
+  padding-right: 24px;
+}
 
+.nav-info p {
+  font-size: 0.7em;
+}
 
+.nav {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.nav li {
+  margin: 10px 0 20px 0;
+  list-style: none;
+  text-decoration-style: none;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* CAROUSEL ----------------------------------------------*/
+
+.carousel-container {
+  display: inline-block;
+  float: right;
+  width: 78%;
+  height: 100%;
+  margin: 3.5% 0 0 0;
+  overflow: hidden;
+
+  //border: 1px solid red;
+}
+
+.carousel-div {
+  display: inline-block;
+  width: 880px;
+  height: 600px;
+}
+
+.carousel-div p {
+  position: absolute;
+  top: 94%;
+  left: 45%;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.carousel-div.one {
+  background: #000 url(../assets/images/walrus_for_web.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.carousel-div.two {
+  background: #000 url(../assets/images/swan_for_web.jpg) no-repeat center;
+  background-size: cover;
+
+  position: absolute;
+  left: 95%;
+  top: 6.4%;
+}
+.carousel-div.three,
+.carousel-div.four {
+  display: none;
+}
 
 
 
