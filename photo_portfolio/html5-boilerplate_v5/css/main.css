@@ -92,14 +92,17 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Custom styles
    ========================================================================== */
 
 /* NAVIGATION BAR ---------------------------------*/
 
 .navbar {
+  position: absolute;
+  z-index: 10;
+  background-color: #fff;
   display: inline-block;
-  width: 19%;
+  width: 250px;
   height: 100%;
   margin: 0.5% 0 0 1%;
   padding: 0;
@@ -151,17 +154,9 @@ textarea {
 }
 
 .carousel-div {
-  display: inline-block;
-  width: 880px;
-  height: 600px;
-}
-
-.carousel-div p {
   position: absolute;
-  top: 91%;
-  left: 44%;
-  font-size: 12px;
-  font-style: italic;
+  width: 69%; /*880px*/
+  height: 80%; /*600px*/
 }
 
 #carousel-arrow {
@@ -199,16 +194,6 @@ textarea {
 .carousel-div.four {
   display: none;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
