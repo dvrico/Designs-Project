@@ -158,10 +158,20 @@ textarea {
 
 .carousel-div p {
   position: absolute;
-  top: 94%;
-  left: 45%;
+  top: 91%;
+  left: 44%;
   font-size: 12px;
   font-style: italic;
+}
+
+#carousel-arrow {
+  background: transparent url(../assets/icons/arrow.svg) no-repeat center;
+  background-size: cover;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  right: 0.5%;
+  top: 45%;
 }
 
 .carousel-div.one {
@@ -172,11 +182,19 @@ textarea {
 .carousel-div.two {
   background: #000 url(../assets/images/swan_for_web.jpg) no-repeat center;
   background-size: cover;
-
-  position: absolute;
-  left: 95%;
-  top: 6.4%;
 }
+
+.carousel-div.three {
+  background: #000 url(../assets/images/sheep_for_web.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.carousel-div.four {
+  background: #000 url(../assets/images/otter_for_web.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.carousel-div.two,
 .carousel-div.three,
 .carousel-div.four {
   display: none;
