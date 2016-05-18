@@ -16,6 +16,13 @@ a:hover {
   text-decoration: none;
   color: white;
 }
+
+/* Wrapper */
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+
 /* Header Section ------------------------------*/
 
 header {
@@ -37,7 +44,7 @@ header {
 }
 
 /* -----------------DESKTOP---------------------------- */
-@media only screen and (min-device-width: 426px) and (max-device-width: 2560px) {
+@media only screen and (min-width: 426px) and (max-width: 2560px) {
 
   .ghost-button {
     text-align: center;
@@ -511,7 +518,7 @@ header {
 }
 
 /* --------------TABLET------------------------------ */
-@media only screen and (min-device-width: 426px) and (max-device-width: 1150px) {
+@media only screen and (min-width: 426px) and (max-width: 1150px) {
 
   /* Tablet Main Section -------------------------------*/
 
@@ -635,8 +642,17 @@ header {
 
 }
 
+@media only screen and (min-width: 1260px) {
+  .wrapper {
+    position: relative;
+    width: 1260px;
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+
 /* Fix Buy Now Button */
-@media only screen and (max-device-width: 710px) {
+@media only screen and (max-width: 710px) {
 
   #menu {
     display: inline-block;
@@ -659,7 +675,7 @@ header {
 
 /* --------------MOBILE------------------------------ */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
+@media only screen and (min-width: 320px) and (max-width: 425px) {
 
 /* Mobile Buttons */
 
