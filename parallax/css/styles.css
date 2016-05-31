@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px; }
+
+body {
+  margin: 0; }
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.content {
+  margin: 4rem auto 0 auto;
+  max-width: 70%; }
+  .content h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #6CA147; }
+  .content p {
+    padding: 0 2em;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #8a8c8b; }
+
+.canyon-bg {
+  position: relative;
+  width: 100%;
+  height: 470px;
+  background: url(/images/backgroundtiny.jpg) no-repeat top center;
+  background-size: contain;
+  background-attachment: fixed;
+  overflow: hidden; }
+
+.logo {
+  height: 100px;
+  width: 70%;
+  background: url(/images/title-tiny.png) no-repeat center;
+  background-size: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -35%; }
+
+.foreground-pines-left {
+  width: 742px;
+  height: 1312px;
+  background: url(/images/foreground-pines-left-tiny.png) no-repeat left bottom;
+  background-size: contain;
+  position: absolute;
+  right: 60%;
+  top: 40%; }
+
+.foreground-pines-right {
+  width: 960px;
+  height: 1503px;
+  background: url(/images/foreground-pines-right-tiny.png) no-repeat right bottom;
+  background-size: contain;
+  position: absolute;
+  left: 75%;
+  top: 30%;
+  margin-left: -480px; }
+
+.trip-list {
+  margin: 0 auto 1rem auto;
+  max-width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+  .trip-list a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden; }
+    .trip-list a.is-showing {
+      opacity: 1;
+      transform: translateX(0px); }
+    .trip-list a:hover .caption {
+      left: 0%; }
+    .trip-list a:hover img {
+      transform: scale(1.2);
+      border-radius: 10px; }
+    .trip-list a img {
+      width: 320px;
+      height: 200px;
+      border-radius: 10px;
+      margin: 0.7rem;
+      transform: scale(1);
+      transition: all 0.3s ease-in-out; }
+    .trip-list a .odd {
+      flex-grow: 1; }
+    .trip-list a .even {
+      height: 250px;
+      flex-grow: 2; }
+    .trip-list a .caption {
+      position: absolute;
+      bottom: 1rem;
+      left: -100%;
+      background: #a0466c;
+      padding: 8px 8px;
+      transition: all 0.3s ease-in-out; }
+
+.more-trips-link {
+  max-width: 70%;
+  height: 100px;
+  margin: 0 auto 3rem auto; }
+  .more-trips-link a {
+    text-decoration: none;
+    color: #6CA147;
+    float: right; }
+    .more-trips-link a:hover {
+      color: #a0466c; }
+
+.testimonial-list {
+  margin: 2rem auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .testimonial-list .testimonial {
+    width: 400px; }
+    .testimonial-list .testimonial img {
+      border-radius: 90px;
+      float: left; }
+    .testimonial-list .testimonial h4 {
+      margin: 0;
+      padding-left: 9.5rem; }
+    .testimonial-list .testimonial figcaption {
+      margin: 1rem 0 2rem 1.5rem;
+      padding-left: 8rem; }
+
+.email-banner {
+  position: relative;
+  width: 100%;
+  height: 470px;
+  background: url(/images/rural-sm.jpg) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden; }
+
+.bg-tint {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+  .bg-tint h2 {
+    margin-top: 2rem;
+    color: #fff;
+    text-align: center; }
+  .bg-tint .sign-up {
+    margin: 0 auto;
+    max-width: 50%;
+    color: #fff;
+    font-size: 1.2rem; }
+    .bg-tint .sign-up .main-form {
+      float: left;
+      width: 350px;
+      margin: 3rem 0 0 2rem; }
+      .bg-tint .sign-up .main-form input[type="text"], .bg-tint .sign-up .main-form input[type="email"] {
+        display: block;
+        width: 100%;
+        margin: 2rem 0;
+        height: 3.25em;
+        border: none;
+        outline: none;
+        border-radius: .3em;
+        background: #fff;
+        padding: .5em 1.25em;
+        font-size: .8em;
+        color: #8a8c8b; }
+    .bg-tint .sign-up .checkbox-form {
+      float: right;
+      padding: 0 2rem 2rem 3rem;
+      border-left: #fff 1px solid; }
+      .bg-tint .sign-up .checkbox-form p {
+        margin: 1rem 0 1rem 0; }
+    .bg-tint .sign-up .button-container {
+      clear: both;
+      margin: 0 auto;
+      padding-top: 1rem;
+      display: flex;
+      justify-content: center; }
+      .bg-tint .sign-up .button-container .button {
+        border: none;
+        outline: none;
+        padding: 1em 4.5em;
+        border-radius: 2em;
+        background: #a0466c;
+        color: #fff;
+        font-weight: 700;
+        font-size: 1rem;
+        margin-top: 0.5rem; }
+        .bg-tint .sign-up .button-container .button:hover {
+          background-color: #6CA147;
+          cursor: pointer; }
+
+footer {
+  background-color: #000;
+  position: relative;
+  width: 100%;
+  height: 400px; }
+  footer .footer-logo {
+    height: 75px;
+    width: 45%;
+    background: #000 url(/images/title-tiny.png) no-repeat left top;
+    background-size: contain;
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    margin-left: -22%; }
+  footer .icons {
+    margin: 0 auto 0 auto;
+    max-width: 70%;
+    display: flex;
+    justify-content: center; }
+    footer .icons img {
+      width: 100px;
+      height: 100px;
+      margin: 12rem 1rem 1rem 1rem;
+      color: #fff; }
+  footer .small-links {
+    margin: 0;
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    margin-left: -14%; }
+    footer .small-links li {
+      list-style-type: none;
+      display: inline;
+      justify-content: center;
+      margin: 0 0.5rem; }
+      footer .small-links li a {
+        text-decoration: underline;
+        color: #fff;
+        font-weight: 100; }
+        footer .small-links li a:hover {
+          color: #6CA147; }
