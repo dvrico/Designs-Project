@@ -22,17 +22,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/images\/background.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.35732e+06,
-		"inputAbbreviatedPath": "\/images\/background.jpg",
-		"outputAbbreviatedPath": "\/images\/background.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/images\/backgroundtiny.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -77,17 +66,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/foreground-pines-left.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 575608,
-		"inputAbbreviatedPath": "\/images\/foreground-pines-left.png",
-		"outputAbbreviatedPath": "\/images\/foreground-pines-left.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/images\/foreground-pines-right-tiny.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -98,17 +76,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/images\/foreground-pines-right.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.01915e+06,
-		"inputAbbreviatedPath": "\/images\/foreground-pines-right.png",
-		"outputAbbreviatedPath": "\/images\/foreground-pines-right.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
 		},
 	"\/images\/hiking-promo.jpg": {
 		"fileType": 16384,
@@ -187,17 +154,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/rural-lg.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.26606e+06,
-		"inputAbbreviatedPath": "\/images\/rural-lg.jpeg",
-		"outputAbbreviatedPath": "\/images\/rural-lg.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/rural-sm.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -227,193 +183,6 @@
 		"initialSize": 3217,
 		"inputAbbreviatedPath": "\/images\/title-tiny.png",
 		"outputAbbreviatedPath": "\/images\/title-tiny.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/title.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6103,
-		"inputAbbreviatedPath": "\/images\/title.jpg",
-		"outputAbbreviatedPath": "\/images\/title.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/title.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5660,
-		"inputAbbreviatedPath": "\/images\/title.png",
-		"outputAbbreviatedPath": "\/images\/title.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/images\/unedited\/background-birds.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.14310e+06,
-		"inputAbbreviatedPath": "\/images\/unedited\/background-birds.jpeg",
-		"outputAbbreviatedPath": "\/images\/unedited\/background-birds.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/unedited\/background-two.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.66465e+06,
-		"inputAbbreviatedPath": "\/images\/unedited\/background-two.jpeg",
-		"outputAbbreviatedPath": "\/images\/unedited\/background-two.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/unedited\/background.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4.12464e+06,
-		"inputAbbreviatedPath": "\/images\/unedited\/background.jpeg",
-		"outputAbbreviatedPath": "\/images\/unedited\/background.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/unedited\/camp-promo.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5.99533e+06,
-		"inputAbbreviatedPath": "\/images\/unedited\/camp-promo.jpeg",
-		"outputAbbreviatedPath": "\/images\/unedited\/camp-promo.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/unedited\/climb-promo.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4.81656e+06,
-		"inputAbbreviatedPath": "\/images\/unedited\/climb-promo.jpeg",
-		"outputAbbreviatedPath": "\/images\/unedited\/climb-promo.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/unedited\/foreground-pine.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.2478e+06,
-		"inputAbbreviatedPath": "\/images\/unedited\/foreground-pine.jpeg",
-		"outputAbbreviatedPath": "\/images\/unedited\/foreground-pine.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/unedited\/foreground-pines-two.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.16794e+06,
-		"inputAbbreviatedPath": "\/images\/unedited\/foreground-pines-two.jpeg",
-		"outputAbbreviatedPath": "\/images\/unedited\/foreground-pines-two.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/unedited\/hiking-boots.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5.02141e+06,
-		"inputAbbreviatedPath": "\/images\/unedited\/hiking-boots.jpg",
-		"outputAbbreviatedPath": "\/images\/unedited\/hiking-boots.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/unedited\/hiking-nomad.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.51642e+06,
-		"inputAbbreviatedPath": "\/images\/unedited\/hiking-nomad.jpeg",
-		"outputAbbreviatedPath": "\/images\/unedited\/hiking-nomad.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/unedited\/hiking-promo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5.22788e+06,
-		"inputAbbreviatedPath": "\/images\/unedited\/hiking-promo.jpg",
-		"outputAbbreviatedPath": "\/images\/unedited\/hiking-promo.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/unedited\/iceclimb-promo.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.97034e+06,
-		"inputAbbreviatedPath": "\/images\/unedited\/iceclimb-promo.jpeg",
-		"outputAbbreviatedPath": "\/images\/unedited\/iceclimb-promo.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/unedited\/kayak-promo.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.26062e+06,
-		"inputAbbreviatedPath": "\/images\/unedited\/kayak-promo.jpeg",
-		"outputAbbreviatedPath": "\/images\/unedited\/kayak-promo.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/unedited\/rural.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4.45674e+06,
-		"inputAbbreviatedPath": "\/images\/unedited\/rural.jpeg",
-		"outputAbbreviatedPath": "\/images\/unedited\/rural.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/unedited\/sail-promo.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.27347e+06,
-		"inputAbbreviatedPath": "\/images\/unedited\/sail-promo.jpeg",
-		"outputAbbreviatedPath": "\/images\/unedited\/sail-promo.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/unedited\/single-background-bird.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.61734e+06,
-		"inputAbbreviatedPath": "\/images\/unedited\/single-background-bird.jpeg",
-		"outputAbbreviatedPath": "\/images\/unedited\/single-background-bird.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
