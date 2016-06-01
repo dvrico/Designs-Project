@@ -163,14 +163,16 @@ body {
     margin: 0 auto;
     max-width: 50%;
     color: #fff;
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
     .bg-tint .sign-up .main-form {
-      float: left;
-      width: 350px;
-      margin: 3rem 0 0 2rem; }
+      max-width: 100%;
+      margin: 3rem 3rem 0 2rem; }
       .bg-tint .sign-up .main-form input[type="text"], .bg-tint .sign-up .main-form input[type="email"] {
         display: block;
-        width: 100%;
+        width: 300px;
         margin: 2rem 0;
         height: 3.25em;
         border: none;
@@ -181,7 +183,6 @@ body {
         font-size: .8em;
         color: #8a8c8b; }
     .bg-tint .sign-up .checkbox-form {
-      float: right;
       padding: 0 2rem 2rem 3rem;
       border-left: #fff 1px solid; }
       .bg-tint .sign-up .checkbox-form p {
@@ -210,7 +211,7 @@ footer {
   background-color: #000;
   position: relative;
   width: 100%;
-  height: 400px; }
+  height: 500px; }
   footer .footer-logo {
     height: 75px;
     width: 45%;
@@ -247,3 +248,16 @@ footer {
         font-weight: 100; }
         footer .small-links li a:hover {
           color: #6CA147; }
+
+@media only screen and (max-width: 1450px) {
+  .canyon-bg {
+    background-size: cover; }
+
+  footer .small-links {
+    margin-left: -15%; } }
+@media only screen and (min-width: 1815px) {
+  .bg-tint .sign-up {
+    max-width: 40%; }
+
+  footer .small-links {
+    margin-left: -11%; } }
