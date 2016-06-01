@@ -215,13 +215,17 @@ body {
     max-width: 50%;
     color: #fff;
     font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
     .main-form {
-      float: left;
-      width: 350px;
-      margin: 3rem 0 0 2rem;
+      // float: left;
+      max-width: 100%;
+      margin: 3rem 3rem 0 2rem;
       input[type="text"], input[type="email"] {
         display: block;
-        width: 100%;
+        width: 300px;
         margin: 2rem 0;
         height: 3.25em;
         border: none;
@@ -237,7 +241,7 @@ body {
       p {
         margin: 1rem 0 1rem 0;
       }
-      float: right;
+      // float: right;
       padding: 0 2rem 2rem 3rem;
       border-left: #fff 1px solid;
     }
@@ -272,7 +276,7 @@ footer {
   background-color: #000;
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 500px;
   .footer-logo {
     height: 75px;
     width: 45%;
@@ -316,4 +320,42 @@ footer {
       }
     }
   }
+}
+
+@media only screen and (max-width: 1450px) {
+
+  // Title bg
+
+  .canyon-bg {
+    background-size: cover;
+  }
+
+  // Footer
+
+  footer {
+    .small-links {
+      margin-left: -15%;
+    }
+  }
+
+}
+
+@media only screen and (min-width: 1815px) {
+
+  // Email Banner
+
+  .bg-tint {
+    .sign-up {
+      max-width: 40%;
+    }
+  }
+
+  // Footer
+
+  footer {
+    .small-links {
+      margin-left: -11%;
+    }
+  }
+
 }
