@@ -6,3 +6,4 @@ Preview the designs here:
 * [Bike Shop Design](http://dvrico.github.io/designs/bike-design/index.html)
 * [Space Rainbow Design](http://dvrico.github.io/designs/space_rainbow/index.html)
 * [Photographer's Portfolio](http://dvrico.github.io/designs/photo_portfolio/index.html)
+* [Parallax Theme](http://dvrico.github.io/designs/parallax/index.html)
