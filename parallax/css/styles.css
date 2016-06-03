@@ -250,6 +250,9 @@ footer {
           color: #6CA147; }
 
 @media only screen and (max-width: 1450px) {
+  .bg-tint .sign-up {
+    max-width: 62%; }
+
   .canyon-bg {
     background-size: cover; }
 
