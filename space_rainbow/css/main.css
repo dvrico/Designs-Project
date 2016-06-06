@@ -673,7 +673,23 @@ header {
 }
 
 /* Fix Text on Tablet */
-@media only screen and (max-width: 650px) {
+@media only screen and (min-width: 450px) and (max-width: 650px) {
+
+  #floating-astronaut {
+    top: 25%;
+  }
+
+  #third-comet {
+    left: 35%;
+  }
+
+  #large-comet {
+    display: none;
+  }
+
+  #home-planet {
+    left: 25%;
+  }
 
   .title {
     padding-top: 80px;
