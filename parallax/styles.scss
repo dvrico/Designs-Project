@@ -361,6 +361,22 @@ footer {
 
 }
 
+// ------------------ XSM DESKTOP -------------
+
+@media only screen and (max-width: 1450px) {
+
+  // Promos
+  .trip-list {
+    max-width: 85%;
+  }
+
+  //Testimonials
+  .content {
+    max-width: 80%;
+  }
+
+}
+
 //----------------- TABLET ------------------------------//
 
 @media only screen and (max-width: 650px) {
