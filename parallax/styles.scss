@@ -303,24 +303,45 @@ footer {
     margin: 0;
     position: absolute;
     top: 350px;
-    left: 50%;
-    margin-left: -14%;
-    li {
-      list-style-type: none;
-      display: inline;
-      justify-content: center;
-      margin: 0 0.5rem;
-      a {
-        text-decoration: underline;
-        color: #fff;
-        font-weight: 100;
-        &:hover {
-          color: $secondary;
+    width: 100%;
+    // margin-left: -14%;
+    ul {
+      margin: 0 auto;
+      max-width: 30%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      li {
+        list-style-type: none;
+        display: inline;
+        a {
+          text-decoration: underline;
+          color: #fff;
+          font-weight: 100;
+          &:hover {
+            color: $secondary;
+          }
         }
       }
     }
   }
 }
+
+//**********************************
+// MEDIA QUERIES
+//**********************************
+
+// ----------------- LG DESKTOP --------------
+
+@media only screen and (max-width: 1485px) {
+
+  .trip-list {
+    max-width: 80%;
+  }
+
+}
+
+// ------------------ SM DESKTOP -------------
 
 @media only screen and (max-width: 1450px) {
 
@@ -338,15 +359,265 @@ footer {
     background-size: cover;
   }
 
-  // Footer
+}
+
+//----------------- TABLET ------------------------------//
+
+@media only screen and (max-width: 650px) {
+
+  // ---------------------------Parallax Title
+
+  .logo {
+    width: 90%;
+    margin-left: -45%;
+  }
+
+  // ---------------------------Promos
+
+  .content {
+    margin: 2rem auto 0 auto;
+    max-width: 95%;
+  }
+
+  .trip-list {
+    margin: 0 auto 1rem auto;
+    max-width: 95%;
+    a {
+      img {
+        width: 260px;
+        height: 250px;
+      }
+      .caption {
+        bottom: 1rem;
+        left: -1%;
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  // ---------------------------Email Banner
+
+  .email-banner {
+    height: 580px;
+  }
+
+  .bg-tint {
+    h2 {
+      margin-top: 1rem;
+      color: #fff;
+      text-align: center;
+    }
+    .sign-up {
+      margin: 0 auto;
+
+      .main-form {
+        margin: 0 3rem 0 2rem;
+        input[type="text"], input[type="email"] {
+          margin: 1rem 0;
+        }
+      }
+      .checkbox-form {
+        p {
+          margin: 0 0 1rem 0;
+        }
+        padding: 0;
+        border-left: #fff 0px solid;
+      }
+    }
+  }
+
+  // -----------------------------------Footer
 
   footer {
+    height: 320px;
+    .footer-logo {
+      height: 50px;
+      top: 3rem;
+      width: 90%;
+      margin-left: -45%;
+    }
+    .icons {
+      img {
+        margin: 7rem 1rem 1rem 1rem;
+      }
+    }
     .small-links {
-      margin-left: -15%;
+      top: 250px;
+      ul {
+        margin: 0 auto;
+        max-width: 65%;
+        li {
+        }
+      }
     }
   }
 
 }
+
+//------------- MOBILE ----------------------------------//
+
+@media only screen and (min-width: 320px) and (max-width: 450px) {
+
+  // ------------------- Parallax Title
+
+  .canyon-bg {
+    width: 100%;
+    height: 90vh;
+  }
+
+  .logo {
+    height: 100px;
+    width: 95%;
+    top: 20%;
+    left: 50%;
+    margin-left: -47%;
+  }
+
+  .foreground-pines-left {
+    right: 10%;
+    top: 30%;
+  }
+
+  .foreground-pines-right {
+    left: 15%;
+    top: 30%;
+  }
+
+  // ------------------- Promos
+
+  .content {
+    margin: 2rem auto;
+    max-width: 85%;
+    h2 {
+      padding: 0 0.5rem;
+    }
+    p {
+      padding: 0 1em;
+      font-size: 1rem;
+    }
+  }
+
+  .trip-list {
+    margin: 0 auto;
+    max-width: 70%;
+    a {
+
+      img {
+        max-width: 95%;
+        max-height: 95%;
+      }
+      .caption {
+        font-size: 0.8rem;
+        bottom: 1rem;
+        left: -1%;
+      }
+    }
+  }
+
+  .more-trips-link {
+    max-width: 65%;
+    height: 45px;
+    margin: 0 auto 0 auto;
+  }
+
+  // ------------------ Testimonials
+
+  .testimonial-list {
+    .testimonial {
+      width: 100%;
+      margin: 0;
+      img {
+        border-radius: 90px;
+        float: left;
+        width: 90px;
+        height: 90px;
+      }
+      h4 {
+        margin: 0;
+        padding-left: 6.5rem;
+        font-size: 1rem;
+      }
+      figcaption {
+        margin: 1rem 0 2rem 1.5rem;
+        padding-left: 5rem;
+      }
+    }
+  }
+
+  // ---------------------- Email Banner
+
+  .email-banner {
+    height: 600px;
+  }
+
+  .bg-tint {
+    h2 {
+      font-size: 1.3rem;
+      margin-bottom: 0;
+    }
+    .sign-up {
+      max-width: 89%;
+      font-size: 1.2rem;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      .main-form {
+        // float: left;
+        max-width: 100%;
+        margin: 0rem 3rem 0 2rem;
+        input[type="text"], input[type="email"] {
+          margin: 1rem 0;
+        }
+      }
+      .checkbox-form {
+        p {
+          margin: 0;
+        }
+        padding: 0;
+        border-left: #fff 0px solid;
+      }
+    }
+  }
+
+  // -------------------------- Footer
+
+  footer {
+    height: 220px;
+    .footer-logo {
+      height: 45px;
+      width: 95%;
+      top: 2rem;
+      margin-left: -47%;
+    }
+    .icons {
+      margin: 0 auto 0 auto;
+      max-width: 100%;
+      img {
+        width: 60px;
+        height: 60px;
+        margin: 5rem 1rem 1rem 1rem;
+      }
+    }
+    .small-links {
+      top: 180px;
+      width: 100%;
+      ul {
+        margin: 0 auto;
+        max-width: 95%;
+        padding: 0;
+        li {
+          a {
+            font-size: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
 
 @media only screen and (min-width: 1815px) {
 
@@ -355,14 +626,6 @@ footer {
   .bg-tint {
     .sign-up {
       max-width: 40%;
-    }
-  }
-
-  // Footer
-
-  footer {
-    .small-links {
-      margin-left: -11%;
     }
   }
 
