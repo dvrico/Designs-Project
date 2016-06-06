@@ -426,6 +426,12 @@ footer {
     }
   }
 
+  // ----------------------------------Testimonials
+
+  .testimonial-list {
+    overflow: hidden;
+  }
+
   // -----------------------------------Footer
 
   footer {
@@ -499,7 +505,7 @@ footer {
 
   .trip-list {
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 85%;
     a {
 
       img {
@@ -523,6 +529,7 @@ footer {
   // ------------------ Testimonials
 
   .testimonial-list {
+    overflow: hidden;
     .testimonial {
       width: 100%;
       margin: 0;
