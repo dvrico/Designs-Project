@@ -44,7 +44,7 @@ $(window).scroll(function() {
 
   // Fade In for email banner
     if(wScroll > $('.email-banner').offset().top - $(window).height()) {
-      var opacity = (wScroll - $('.email-banner').offset().top + 400) / (wScroll / 5);
+      var opacity = (wScroll - $('.email-banner').offset().top + 400) / (wScroll / 8);
 
       $('.bg-tint').css({'opacity': opacity});
     }

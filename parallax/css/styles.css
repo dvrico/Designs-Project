@@ -235,32 +235,192 @@ footer {
     margin: 0;
     position: absolute;
     top: 350px;
-    left: 50%;
-    margin-left: -14%; }
-    footer .small-links li {
-      list-style-type: none;
-      display: inline;
-      justify-content: center;
-      margin: 0 0.5rem; }
-      footer .small-links li a {
-        text-decoration: underline;
-        color: #fff;
-        font-weight: 100; }
-        footer .small-links li a:hover {
-          color: #6CA147; }
+    width: 100%; }
+    footer .small-links ul {
+      margin: 0 auto;
+      max-width: 30%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      footer .small-links ul li {
+        list-style-type: none;
+        display: inline; }
+        footer .small-links ul li a {
+          text-decoration: underline;
+          color: #fff;
+          font-weight: 100; }
+          footer .small-links ul li a:hover {
+            color: #6CA147; }
 
+@media only screen and (max-width: 1485px) {
+  .trip-list {
+    max-width: 80%; } }
 @media only screen and (max-width: 1450px) {
   .bg-tint .sign-up {
     max-width: 62%; }
 
   .canyon-bg {
-    background-size: cover; }
+    background-size: cover; } }
+@media only screen and (max-width: 650px) {
+  .logo {
+    width: 90%;
+    margin-left: -45%; }
 
-  footer .small-links {
-    margin-left: -15%; } }
+  .content {
+    margin: 2rem auto 0 auto;
+    max-width: 95%; }
+
+  .trip-list {
+    margin: 0 auto 1rem auto;
+    max-width: 95%; }
+    .trip-list a img {
+      width: 260px;
+      height: 250px; }
+    .trip-list a .caption {
+      bottom: 1rem;
+      left: -1%;
+      font-size: 0.9rem; }
+
+  .email-banner {
+    height: 580px; }
+
+  .bg-tint h2 {
+    margin-top: 1rem;
+    color: #fff;
+    text-align: center; }
+  .bg-tint .sign-up {
+    margin: 0 auto; }
+    .bg-tint .sign-up .main-form {
+      margin: 0 3rem 0 2rem; }
+      .bg-tint .sign-up .main-form input[type="text"], .bg-tint .sign-up .main-form input[type="email"] {
+        margin: 1rem 0; }
+    .bg-tint .sign-up .checkbox-form {
+      padding: 0;
+      border-left: #fff 0px solid; }
+      .bg-tint .sign-up .checkbox-form p {
+        margin: 0 0 1rem 0; }
+
+  footer {
+    height: 320px; }
+    footer .footer-logo {
+      height: 50px;
+      top: 3rem;
+      width: 90%;
+      margin-left: -45%; }
+    footer .icons img {
+      margin: 7rem 1rem 1rem 1rem; }
+    footer .small-links {
+      top: 250px; }
+      footer .small-links ul {
+        margin: 0 auto;
+        max-width: 65%; } }
+@media only screen and (min-width: 320px) and (max-width: 450px) {
+  .canyon-bg {
+    width: 100%;
+    height: 90vh; }
+
+  .logo {
+    height: 100px;
+    width: 95%;
+    top: 20%;
+    left: 50%;
+    margin-left: -47%; }
+
+  .foreground-pines-left {
+    right: 10%;
+    top: 30%; }
+
+  .foreground-pines-right {
+    left: 15%;
+    top: 30%; }
+
+  .content {
+    margin: 2rem auto;
+    max-width: 85%; }
+    .content h2 {
+      padding: 0 0.5rem; }
+    .content p {
+      padding: 0 1em;
+      font-size: 1rem; }
+
+  .trip-list {
+    margin: 0 auto;
+    max-width: 70%; }
+    .trip-list a img {
+      max-width: 95%;
+      max-height: 95%; }
+    .trip-list a .caption {
+      font-size: 0.8rem;
+      bottom: 1rem;
+      left: -1%; }
+
+  .more-trips-link {
+    max-width: 65%;
+    height: 45px;
+    margin: 0 auto 0 auto; }
+
+  .testimonial-list .testimonial {
+    width: 100%;
+    margin: 0; }
+    .testimonial-list .testimonial img {
+      border-radius: 90px;
+      float: left;
+      width: 90px;
+      height: 90px; }
+    .testimonial-list .testimonial h4 {
+      margin: 0;
+      padding-left: 6.5rem;
+      font-size: 1rem; }
+    .testimonial-list .testimonial figcaption {
+      margin: 1rem 0 2rem 1.5rem;
+      padding-left: 5rem; }
+
+  .email-banner {
+    height: 600px; }
+
+  .bg-tint h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0; }
+  .bg-tint .sign-up {
+    max-width: 89%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .bg-tint .sign-up .main-form {
+      max-width: 100%;
+      margin: 0rem 3rem 0 2rem; }
+      .bg-tint .sign-up .main-form input[type="text"], .bg-tint .sign-up .main-form input[type="email"] {
+        margin: 1rem 0; }
+    .bg-tint .sign-up .checkbox-form {
+      padding: 0;
+      border-left: #fff 0px solid; }
+      .bg-tint .sign-up .checkbox-form p {
+        margin: 0; }
+
+  footer {
+    height: 220px; }
+    footer .footer-logo {
+      height: 45px;
+      width: 95%;
+      top: 2rem;
+      margin-left: -47%; }
+    footer .icons {
+      margin: 0 auto 0 auto;
+      max-width: 100%; }
+      footer .icons img {
+        width: 60px;
+        height: 60px;
+        margin: 5rem 1rem 1rem 1rem; }
+    footer .small-links {
+      top: 180px;
+      width: 100%; }
+      footer .small-links ul {
+        margin: 0 auto;
+        max-width: 95%;
+        padding: 0; }
+        footer .small-links ul li a {
+          font-size: 0.7rem; } }
 @media only screen and (min-width: 1815px) {
   .bg-tint .sign-up {
-    max-width: 40%; }
-
-  footer .small-links {
-    margin-left: -11%; } }
+    max-width: 40%; } }
