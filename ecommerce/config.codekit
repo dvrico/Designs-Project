@@ -11,178 +11,90 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/functions.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/functions.js",
-		"outputAbbreviatedPath": "\/min\/functions-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/images\/backgroundtiny.jpg": {
+	"\/images\/brxtn_hat.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 435279,
-		"inputAbbreviatedPath": "\/images\/backgroundtiny.jpg",
-		"outputAbbreviatedPath": "\/images\/backgroundtiny.jpg",
+		"initialSize": 78234,
+		"inputAbbreviatedPath": "\/images\/brxtn_hat.jpg",
+		"outputAbbreviatedPath": "\/images\/brxtn_hat.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/camp-promo.jpg": {
+	"\/images\/clothing_store.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 77613,
-		"inputAbbreviatedPath": "\/images\/camp-promo.jpg",
-		"outputAbbreviatedPath": "\/images\/camp-promo.jpg",
+		"initialSize": 169259,
+		"inputAbbreviatedPath": "\/images\/clothing_store.jpg",
+		"outputAbbreviatedPath": "\/images\/clothing_store.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/climb-promo.jpg": {
+	"\/images\/clothing_store_2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 107585,
-		"inputAbbreviatedPath": "\/images\/climb-promo.jpg",
-		"outputAbbreviatedPath": "\/images\/climb-promo.jpg",
+		"initialSize": 106543,
+		"inputAbbreviatedPath": "\/images\/clothing_store_2.jpg",
+		"outputAbbreviatedPath": "\/images\/clothing_store_2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/foreground-pines-left-tiny.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 156184,
-		"inputAbbreviatedPath": "\/images\/foreground-pines-left-tiny.png",
-		"outputAbbreviatedPath": "\/images\/foreground-pines-left-tiny.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/foreground-pines-right-tiny.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 270146,
-		"inputAbbreviatedPath": "\/images\/foreground-pines-right-tiny.png",
-		"outputAbbreviatedPath": "\/images\/foreground-pines-right-tiny.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/hiking-promo.jpg": {
+	"\/images\/clothing_store_3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 31184,
-		"inputAbbreviatedPath": "\/images\/hiking-promo.jpg",
-		"outputAbbreviatedPath": "\/images\/hiking-promo.jpg",
+		"initialSize": 72111,
+		"inputAbbreviatedPath": "\/images\/clothing_store_3.jpg",
+		"outputAbbreviatedPath": "\/images\/clothing_store_3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/iceclimb-promo.jpg": {
+	"\/images\/print.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 54504,
-		"inputAbbreviatedPath": "\/images\/iceclimb-promo.jpg",
-		"outputAbbreviatedPath": "\/images\/iceclimb-promo.jpg",
+		"initialSize": 79096,
+		"inputAbbreviatedPath": "\/images\/print.jpg",
+		"outputAbbreviatedPath": "\/images\/print.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/icons\/avatar-glif.jpg": {
+	"\/images\/scarves.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6056,
-		"inputAbbreviatedPath": "\/images\/icons\/avatar-glif.jpg",
-		"outputAbbreviatedPath": "\/images\/icons\/avatar-glif.jpg",
+		"initialSize": 65763,
+		"inputAbbreviatedPath": "\/images\/scarves.jpg",
+		"outputAbbreviatedPath": "\/images\/scarves.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/icons\/avatar-jadlimcaco.jpg": {
+	"\/images\/striped_dress.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6336,
-		"inputAbbreviatedPath": "\/images\/icons\/avatar-jadlimcaco.jpg",
-		"outputAbbreviatedPath": "\/images\/icons\/avatar-jadlimcaco.jpg",
+		"initialSize": 154484,
+		"inputAbbreviatedPath": "\/images\/striped_dress.jpg",
+		"outputAbbreviatedPath": "\/images\/striped_dress.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/icons\/avatar-rssems.jpg": {
+	"\/images\/suit_and_coffee.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5563,
-		"inputAbbreviatedPath": "\/images\/icons\/avatar-rssems.jpg",
-		"outputAbbreviatedPath": "\/images\/icons\/avatar-rssems.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/icons\/avatar-vista.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16168,
-		"inputAbbreviatedPath": "\/images\/icons\/avatar-vista.jpg",
-		"outputAbbreviatedPath": "\/images\/icons\/avatar-vista.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/kayak-promo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 51596,
-		"inputAbbreviatedPath": "\/images\/kayak-promo.jpg",
-		"outputAbbreviatedPath": "\/images\/kayak-promo.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/rural-sm.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.57276e+06,
-		"inputAbbreviatedPath": "\/images\/rural-sm.jpg",
-		"outputAbbreviatedPath": "\/images\/rural-sm.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/sail-promo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 34981,
-		"inputAbbreviatedPath": "\/images\/sail-promo.jpg",
-		"outputAbbreviatedPath": "\/images\/sail-promo.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/title-tiny.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3217,
-		"inputAbbreviatedPath": "\/images\/title-tiny.png",
-		"outputAbbreviatedPath": "\/images\/title-tiny.png",
+		"initialSize": 37311,
+		"inputAbbreviatedPath": "\/images\/suit_and_coffee.jpg",
+		"outputAbbreviatedPath": "\/images\/suit_and_coffee.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -196,17 +108,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/min\/functions-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/min\/functions-min.js",
-		"outputAbbreviatedPath": "\/min\/min\/functions-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -219,7 +120,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		}
@@ -231,9 +132,9 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "parallax",
-	"displayValueWasSetByUser": 1,
-	"iconImageName": "compass_gray"
+	"displayValue": "ecommerce",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "compass_blue"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
